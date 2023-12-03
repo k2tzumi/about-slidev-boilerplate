@@ -48,6 +48,11 @@ upgrade:
 lint: ## Run textlint
 lint: .textlintcache
 
+.PHONY: lint-fix
+lint-fix: ## Run textlint auto fix
+lint-fix:
+	npx textlint --fix slides.md
+
 .PHONY: publish
 publish: ## Publish slide
 publish: slides-export.pdf slides-export-notes.pdf
