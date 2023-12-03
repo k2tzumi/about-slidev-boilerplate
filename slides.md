@@ -308,6 +308,8 @@ style.css のファイルに CSS を付け加える
 </div>
 
 ---
+transition: slide-up
+---
 
 # Devcontainer対応
 全てはクラウド環境に
@@ -366,6 +368,7 @@ github-pages をクリック
 
 ---
 layout: two-cols-header
+transition: fade
 ---
 
 # シークレット設定（オプション）
