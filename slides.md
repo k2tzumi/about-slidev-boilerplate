@@ -193,14 +193,14 @@ layout: two-cols-header
 リリース用 PR  
 https://github.com/k2tzumi/slidev-boilerplate/pull/4
 
-![Release Pull Request](release-pr.png)
+![Release Pull Request](/release-pr.png)
 
 ::right::
 
 リリースノート自動生成
 https://github.com/k2tzumi/slidev-boilerplate/releases/tag/v0.0.2
 
-![Release note](release-note.png)
+![Release note](/release-note.png)
 
 ---
 
@@ -334,7 +334,7 @@ Workflow 権限に書き込み＆PR 作成を追加
 
 https://github.com/{owner}/{repository}/settings/actions
 
-![settings/actions](settings-actions.png)
+![settings/actions](/settings-actions.png)
 
 ---
 
@@ -343,7 +343,7 @@ GitHub Pages のソースを決める
 
 https://github.com/{owner}/{repository}/settings/pages
 
-![settings/pages](settings-pages.png)
+![settings/pages](/settings-pages.png)
 
 ---
 layout: two-cols-header
@@ -357,12 +357,12 @@ https://github.com/{owner}/{repository}/settings/environments
 ::left::
 
 github-pages をクリック
-![settings-environments](settings-environments.png)
+![settings-environments](/settings-environments.png)
 
 ::right::
 
 `tagpr-from-*` をブランチ追加
-![Deployment branches](deployment-branches.png)
+![Deployment branches](/deployment-branches.png)
 
 ---
 layout: two-cols-header
@@ -377,12 +377,12 @@ https://github.com/{owner}/{repository}/settings/secrets/actions/new
 
 Repository secrets を追加
 
-![Repository secrets](repository-secrets.png)
+![Repository secrets](/repository-secrets.png)
 
 ::right::
 
 `GA_TRACKING_ID` に google タグ ID を設定
-![New secret](new-secret.png)
+![New secret](/new-secret.png)
 
 ---
 
