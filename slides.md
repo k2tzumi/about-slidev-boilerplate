@@ -339,7 +339,7 @@ https://github.com/{owner}/{repository}/settings/actions
 ---
 
 # GitHub Pagesデプロイ設定
-ソース設定
+GitHub Pagesのソースを決める
 
 https://github.com/{owner}/{repository}/settings/pages
 
