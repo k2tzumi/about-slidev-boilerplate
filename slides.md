@@ -139,8 +139,8 @@ layout: default
 
 - 素振り・本番・公開後それぞれのバージョンをいい感じに管理したい
 - スライド共有サイト以外でスライドを自前公開をしたい
-  - Google Analytics でアクセスログを見れるように
-  - SNS へ共有する際に OGP でいい感じに
+  - Google Analytics でアクセスログを見られるように
+  - SNS へ共有する際に OGP を使っていい感じに
   - 最新バージョンが勝手
 - よく使う slidev のコマンドをまとめておきたい
 - typo とかはなるべくなくしたい
@@ -224,7 +224,7 @@ https://k2tzumi.github.io/slidev-boilerplate
 # よく使うコマンドはMakefileから呼び出し
 make コマンドは優秀なタスクランチャー
 
-slidev の操作を行うコマンドをすぐ忘れてしまうので make コマンドを叩けばわかるようにしました。
+slidev の操作するコマンドをすぐ忘れてしまうので make コマンドを叩けばわかるようにしました。
 
 ```console
 $ make
@@ -269,7 +269,7 @@ make: *** [.textlintcache] Error 1
 ---
 
 # テクニカルライティング用のLinter導入
-PR上でレビューコメントがされます
+PR 上でレビューコメントがされます
 
 https://github.com/k2tzumi/about-slidev-boilerplate/pull/1#pullrequestreview-1761146122
 
@@ -330,7 +330,7 @@ layout: default
 ---
 
 # GitHub Actions権限追加
-Workflow権限に書き込み＆PR作成を追加
+Workflow 権限に書き込み＆PR 作成を追加
 
 https://github.com/{owner}/{repository}/settings/actions
 
@@ -339,7 +339,7 @@ https://github.com/{owner}/{repository}/settings/actions
 ---
 
 # GitHub Pagesデプロイ設定
-GitHub Pagesのソースを決める
+GitHub Pages のソースを決める
 
 https://github.com/{owner}/{repository}/settings/pages
 
@@ -350,13 +350,13 @@ layout: two-cols-header
 ---
 
 # 環境設定
-GitHub Pagesのデプロイブランチ設定
+GitHub Pages のデプロイブランチ設定
 
 https://github.com/{owner}/{repository}/settings/environments
 
 ::left::
 
-github-pagesをクリック
+github-pages をクリック
 ![settings-environments](settings-environments.png)
 
 ::right::
@@ -375,13 +375,13 @@ https://github.com/{owner}/{repository}/settings/secrets/actions/new
 
 ::left::
 
-Repository secretsを追加
+Repository secrets を追加
 
 ![Repository secrets](repository-secrets.png)
 
 ::right::
 
-`GA_TRACKING_ID` にgoogleタグIDを設定
+`GA_TRACKING_ID` に google タグ ID を設定
 ![New secret](new-secret.png)
 
 ---
