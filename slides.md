@@ -179,8 +179,28 @@ tagpr の説明については以下の記事を参照
 
 スライド自体にもバージョンを埋め込んでいて、バージョンが上がると連動して更新されます。  
 
-リリース用 PR の例  
+<img src="/update-version.png" class="h-60 rounded shadow" />
+
+---
+layout: two-cols-header
+---
+
+# tagprによるバージョン管理
+動作イメージ
+
+::left::
+
+リリース用 PR  
 https://github.com/k2tzumi/slidev-boilerplate/pull/4
+
+![Release Pull Request](release-pr.png)
+
+::right::
+
+リリースノート自動生成
+https://github.com/k2tzumi/slidev-boilerplate/releases/tag/v0.0.2
+
+![Release note](release-note.png)
 
 ---
 
@@ -249,9 +269,12 @@ make: *** [.textlintcache] Error 1
 ---
 
 # テクニカルライティング用のLinter導入
-CI でも自動レビューしてくれます
+PR上でレビューコメントがされます
+
+https://github.com/k2tzumi/about-slidev-boilerplate/pull/1#pullrequestreview-1761146122
 
 
+<img src="/reviewdog.png" class="shadow rounded" />
 
 ---
 
@@ -301,6 +324,7 @@ nodejs 環境がローカルになくてもボタン一発で CodeSpace 上に�
 - [Slidev](https://ja.sli.dev/)
 - [tagpr](https://github.com/Songmu/tagpr)
 - [textlint](https://github.com/textlint/textlint)
+- [Reviewdog](https://github.com/reviewdog/reviewdog)
 - [playwright](https://playwright.dev/)
 - [qrcode-vue3](https://github.com/scholtz/qrcode-vue3)
 
