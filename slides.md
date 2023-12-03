@@ -318,6 +318,74 @@ nodejs 環境がローカルになくてもボタン一発で CodeSpace 上に�
 <img src="/codespace.png" class="h-100 rounded" />
 
 ---
+layout: image-right
+image: https://source.unsplash.com/collection/94734566/960x1080
+---
+
+# GitHub Actionsの設定方法について
+いくつかの権限及び設定が必要にります
+
+---
+layout: default
+---
+
+# GitHub Actions権限追加
+Workflow権限に書き込み＆PR作成を追加
+
+https://github.com/{owner}/{repository}/settings/actions
+
+![settings/actions](settings-actions.png)
+
+---
+
+# GitHub Pagesデプロイ設定
+ソース設定
+
+https://github.com/{owner}/{repository}/settings/pages
+
+![settings/pages](settings-pages.png)
+
+---
+layout: two-cols-header
+---
+
+# 環境設定
+GitHub Pagesのデプロイブランチ設定
+
+https://github.com/{owner}/{repository}/settings/environments
+
+::left::
+
+github-pagesをクリック
+![settings-environments](settings-environments.png)
+
+::right::
+
+`tagpr-from-*` をブランチ追加
+![Deployment branches](deployment-branches.png)
+
+---
+layout: two-cols-header
+---
+
+# シークレット設定（オプション）
+Google tag manager(Google Analytics)連携のシークレット追加
+
+https://github.com/{owner}/{repository}/settings/secrets/actions/new
+
+::left::
+
+Repository secretsを追加
+
+![Repository secrets](repository-secrets.png)
+
+::right::
+
+`GA_TRACKING_ID` にgoogleタグIDを設定
+![New secret](new-secret.png)
+
+---
+
 
 # Special thanks！
 
