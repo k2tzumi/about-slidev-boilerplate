@@ -112,7 +112,7 @@ https://www.docswell.com/user/katzumi
 
 ::right::
 
-<img src="public/slides.png" class="h-100 rounded shadow" />
+<img src="/slides.png" class="h-100 rounded shadow" />
 
 ---
 layout: fact
