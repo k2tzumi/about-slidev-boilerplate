@@ -292,6 +292,17 @@ style.css のファイルに CSS を付け加える
 nodejs 環境がローカルになくてもボタン一発で CodeSpace 上に環境が構築されます。  
 出先で軽く修正。なんならプレゼンも可能です。
 
+<img src="/codespace.png" class="h-100 rounded" />
+
+---
+
+# Special thanks！
+
+- [Slidev](https://ja.sli.dev/)
+- [tagpr](https://github.com/Songmu/tagpr)
+- [textlint](https://github.com/textlint/textlint)
+- [playwright](https://playwright.dev/)
+- [qrcode-vue3](https://github.com/scholtz/qrcode-vue3)
 
 ---
 layout: end
