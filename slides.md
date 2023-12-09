@@ -315,7 +315,7 @@ transition: slide-up
 全てはクラウド環境に
 
 nodejs 環境がローカルになくてもボタン一発で CodeSpace 上に環境が構築されます。  
-出先で軽く修正。なんならプレゼンも可能です。
+出先で軽く修正。なんならそのままプレゼンも可能です。
 
 <img src="/codespace.png" class="h-100 rounded" />
 
